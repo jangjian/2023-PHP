@@ -15,34 +15,50 @@
     <title>Document</title>
     <style>
         div{
-            border : 1px solid gray;
+            border : 1px solid rgb(2, 141, 39);
             text-align: center;
+            height : 100px;
+            box-sizing: border-box;
+        }
+        .row:nth-of-type(1){
+            background-color: rgb(132, 247, 132);
+        }
+        .row:nth-of-type(2){
+            background-color: rgb(62, 254, 62);
+        }
+        .row:nth-of-type(3){
+            background-color: rgb(20, 189, 20);
+        }
+        .row:nth-of-type(4){
+            background-color: rgb(8, 141, 8);
         }
     </style>
 </head>
-<body>                                              
+<body>            
+    <h3>                              
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12">lorem1</div>
+            <div class="col-xs-12 text-center ">lorem1</div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-8">lorem2</div>
-            <div class="col-sm-4">lorem3</div>
+            <div class="col-md-8 col-xs-12 text-center ">lorem2</div>
+            <div class="col-md-4 col-xs-12 text-center ">lorem3</div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">lorem4</div>
-            <div class="col-md-4">lorem5</div>
-            <div class="col-md-4">lorem6</div>
+            <div class="col-md-4 col-xs-12 text-center ">lorem4</div>
+            <div class="col-md-4 col-xs-12 text-center ">lorem5</div>
+            <div class="col-md-4 col-xs-12 text-center ">lorem6</div>
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">lorem7</div>
+        <div class="row ">
+            <div class="col-xs-12 text-center">lorem7</div>
         </div>
     </div>
+</h3>    
 </body>
 </html>
